@@ -411,8 +411,7 @@ export class TiledResource implements Loadable<any> {
    }
 
    /**
-    * Returns a tile by the world position from a layer. (Uses the first layer name that matches case insensitive).
-    * @param layerName 
+    * Returns all tiles at a given position. (Looks through every layers).
     * @param worldPos 
     * @returns 
     */
